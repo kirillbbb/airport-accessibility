@@ -78,7 +78,7 @@ function renderMonthCalendar(){
     const start=Math.max(s.a,d.a),end=Math.min(s.b,d.b),left=(start-midnight)/DAY*100,width=(end-start)/DAY*100;
     const from=clock(start),to=end===midnight+DAY?'24:00':clock(end);
     const text=`${date(midnight)}, ${names[a]}: ${from}–${to} МСК, ${labels[s.status]}, ${duration(end-start)}. Подробнее и источники.`;
-    return `<button class="month-interval ${s.status}" style="left:${left}%;width:${width}%" data-episode="${s.episode_id}" aria-label="${esc(text)}" title="${esc(text)}">${width>=22?`<span>${from}–${to}</span>`:''}</button>`;
+    return `<button class="month-interval ${s.status}" style="left:${left}%;width:${width}%" data-episode="${s.episode_id}" aria-label="${esc(text)}" title="${esc(text)}">${width>=22?`<span class="interval-time"><span>${from}</span><span class="time-separator">–</span><span>${to}</span></span>`:''}</button>`;
    }).join('');
    return `<div class="month-cell ${selected?'':'excluded'}"><div class="month-track">${bars}${d.partial?`<span class="censored-area" style="left:${(d.b-midnight)/DAY*100}%" title="После ${clock(d.b)} МСК — за пределами среза"></span>`:''}${!selected?'<span class="excluded-text">Не выбран</span>':''}</div></div>`;
   }).join('')}</div>`;

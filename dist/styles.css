@@ -19,3 +19,66 @@
 .audit-summary{white-space:normal;min-width:650px;table-layout:fixed;font-size:11px}.audit-summary th:first-child{width:20%}.audit-summary th:nth-child(2){width:32%}.audit-summary td{vertical-align:top;line-height:1.8}.audit-summary td:last-child,.audit-summary th:last-child{text-align:left}.audit-summary a{text-underline-offset:3px}
 @media(max-width:1000px){.page-heading h1,main[data-view=calendar] .page-heading h1{font-size:32px}}
 @media(max-width:700px){.sidebar{flex-wrap:wrap;gap:13px}.brand{font-size:14px}.brand-mark{font-size:28px}.sidebar nav{width:100%;gap:6px;justify-content:space-between}.nav-link{font-size:10px;padding:9px 10px;gap:6px}.nav-link>span:first-child{font-size:17px}.page-heading,main[data-view=calendar] .page-heading{padding:22px 0 18px}.page-heading h1,main[data-view=calendar] .page-heading h1{font-size:28px;letter-spacing:-.8px}.heading-aside{display:none}.topbar{height:42px}.page-heading p{font-size:11px}.journal-details>summary{font-size:15px}}
+
+/* Desktop calendar: readable labels and larger daily tracks at normal zoom. */
+@media(min-width:701px){
+  main[data-view=calendar]{max-width:none;padding:0 clamp(24px,2.2vw,42px)}
+  main[data-view=calendar] .page-heading p{font-size:16px}
+  main[data-view=calendar] .eyebrow{font-size:11px;letter-spacing:1px}
+  main[data-view=calendar] .topbar{font-size:11px;letter-spacing:.8px}
+  main[data-view=calendar] .heading-aside{min-width:240px}
+  main[data-view=calendar] .heading-aside p{font-size:14px}
+  main[data-view=calendar] .heading-aside small,
+  main[data-view=calendar] .heading-aside a{font-size:12px}
+  main[data-view=calendar] .archive-label{font-size:11px}
+  main[data-view=calendar] .filters{padding:18px 20px;gap:18px}
+  main[data-view=calendar] .filter-caption,
+  main[data-view=calendar] .date-filter label{font-size:11px}
+  main[data-view=calendar] .airport-toggle{font-size:14px;padding:8px 12px}
+  main[data-view=calendar] .airport-toggle[aria-pressed=true]::before{font-size:12px}
+  main[data-view=calendar] .date-filter input{font-size:14px;max-width:137px}
+  main[data-view=calendar] .type-filter{max-width:none}
+  main[data-view=calendar] .type-filter select{font-size:14px;max-width:235px}
+  main[data-view=calendar] .reset{font-size:28px}
+  .month-panel{padding:24px}
+  .month-panel .section-head{gap:24px;flex-wrap:wrap}
+  .month-panel .section-head>div{flex:1;min-width:280px}
+  .month-panel h2{font-size:25px}
+  .month-panel .section-head p{font-size:14px;max-width:760px}
+  .month-panel .button{font-size:14px;padding:11px 15px}
+  .month-legend{font-size:14px;color:#53635b;gap:12px 24px}
+  .month-legend .swatch{width:11px;height:11px}
+  .month-legend .unknown-key,.month-legend .cutoff-key{width:16px;height:11px}
+  #month-calendar{min-width:940px}
+  .month-header,.month-row{grid-template-columns:100px repeat(4,minmax(210px,1fr))}
+  .month-date-head{font-size:12px;padding:16px 12px}
+  .month-airport-head{font-size:15px;padding:16px 12px 12px}
+  .month-airport-head>div:first-child{gap:8px;flex-wrap:wrap;margin-bottom:13px}
+  .month-airport-head .airport-code{font-size:12px;padding:3px 6px}
+  .month-airport-head small{font-size:11px}
+  .month-axis{font-size:12px;color:#596b52}
+  .month-row{min-height:58px}
+  .month-date{padding:8px 12px}
+  .month-date b{font-size:15px;font-weight:600}
+  .month-date small{font-size:11px;color:#63745b;letter-spacing:.2px}
+  .month-cell{padding:8px 12px}
+  .month-track{height:42px}
+  .month-interval span{font-size:12px;letter-spacing:0}
+  .month-interval .interval-time{display:flex;flex-direction:column;justify-content:center;align-items:center;font-weight:600;line-height:1.25}
+  .month-interval .time-separator{display:none}
+  .excluded-text{font-size:12px;color:#63745b}
+  .month-help{font-size:14px;color:#596b52;line-height:1.7;margin-top:18px}
+  main[data-view=calendar] .observations h3{font-size:18px}
+  main[data-view=calendar] .observations>p{font-size:14px}
+  main[data-view=calendar] .observation{font-size:14px;grid-template-columns:150px 1fr 110px;gap:18px}
+  main[data-view=calendar] .source-link{font-size:13px}
+  main[data-view=calendar] footer{font-size:12px}
+  .sidebar .nav-link{font-size:14px;gap:9px}
+  #main[data-view=calendar] ~ #detail .detail-segment p,
+  #main[data-view=calendar] ~ #detail .detail-caveat,
+  #main[data-view=calendar] ~ #detail .airport-report,
+  #main[data-view=calendar] ~ #detail .day-detail-item{font-size:14px}
+  #main[data-view=calendar] ~ #detail .source-link{font-size:13px}
+  #main[data-view=calendar] ~ #detail .detail-stats small{font-size:12px}
+  #main[data-view=calendar] ~ #detail .detail-stats>div{font-size:16px}
+}
