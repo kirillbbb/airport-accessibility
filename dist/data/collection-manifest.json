@@ -1,0 +1,265 @@
+{
+  "cutoff": "2026-10-23T00:51:00+03:00",
+  "start": "2026-09-23T00:00:00+03:00",
+  "collected_at": "2026-10-23T00:53:10.827670+03:00",
+  "pages": [
+    {
+      "url": "https://t.me/s/favt_info",
+      "file": "favt-latest.html",
+      "sha256": "9073aea875bcf00c600de95966fdb3487618053e235735207d2d515bc64b59f3",
+      "bytes": 138188
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8866",
+      "file": "favt-before-8866.html",
+      "sha256": "cba1dc88a917474d2508b36c1364dff6740db1dc91f85c701916b91ef97ce9dc",
+      "bytes": 142473
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8846",
+      "file": "favt-before-8846.html",
+      "sha256": "f39e3ac98b44e7e865b761874189be2adb24f6ae45c3fed9f96431e320ae547f",
+      "bytes": 143318
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8826",
+      "file": "favt-before-8826.html",
+      "sha256": "b5d5371fb3c9481632a29c5b8a95e45d0df3219f3e4de6d95d38933c04d85ade",
+      "bytes": 138511
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8806",
+      "file": "favt-before-8806.html",
+      "sha256": "e0da697f1037ab829efa347a7629b3a8fcb5324e34b0ce5364907dc223d43d3b",
+      "bytes": 147793
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8786",
+      "file": "favt-before-8786.html",
+      "sha256": "206058329453ba96520a837ec91cf5207ae62e74e1b4fd0772096cc03aff432c",
+      "bytes": 129204
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8766",
+      "file": "favt-before-8766.html",
+      "sha256": "4b119cb010b18c474a64bb0b524b91f8cd7afb1b40be70afdd4cc732a7c537a7",
+      "bytes": 148973
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8746",
+      "file": "favt-before-8746.html",
+      "sha256": "3ca107c9b6ce98f4a5d021e8eafebf34f000b11147e0ed1aa5eba9a516025cc8",
+      "bytes": 143693
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8726",
+      "file": "favt-before-8726.html",
+      "sha256": "7b8f5ee3bc11beeea1e3d47d00556efa2c66dcef861c1c8884d47343bf609d80",
+      "bytes": 138011
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8706",
+      "file": "favt-before-8706.html",
+      "sha256": "412e7258eaa83551dcbfd2d070674a4994a41aa991ecba1708fe5ef3d4254620",
+      "bytes": 141904
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8686",
+      "file": "favt-before-8686.html",
+      "sha256": "6616820c2c35c1ef426a8c7aca19eea1eb4d59f7df28f4d0b3b8a43c1e808578",
+      "bytes": 135197
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8666",
+      "file": "favt-before-8666.html",
+      "sha256": "75d207145c13e13c5787ac8e82a7c9bda9417a6e4d3d270a04462ce00b92431b",
+      "bytes": 143721
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8646",
+      "file": "favt-before-8646.html",
+      "sha256": "40383fe5884c5271b4d46de0dcb5cc7345146cd4bfb9635c459103baf712c08b",
+      "bytes": 144485
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8626",
+      "file": "favt-before-8626.html",
+      "sha256": "ba4b4558adeacd0b2ed7cfcb12a24ef9217a4b2a9e1fc82a0b01a475e3caab47",
+      "bytes": 141752
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8606",
+      "file": "favt-before-8606.html",
+      "sha256": "eeac20a14a60a4a3e70dfc763d7e130f04281210c5bab4cd69c9e5d56a559ac5",
+      "bytes": 141272
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8586",
+      "file": "favt-before-8586.html",
+      "sha256": "b70fd013c9405938da1dd2c9b1f06e19e761997333099990ac6618eadc3042d6",
+      "bytes": 145219
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8566",
+      "file": "favt-before-8566.html",
+      "sha256": "7d6b6fa5f107bf578c2229bc953f335f923b4adeb2cd24f151fdf31f7df11249",
+      "bytes": 142226
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8546",
+      "file": "favt-before-8546.html",
+      "sha256": "b3544fa5bdcc8ca5297eb8a753b8bd47aabfff9136fd64b5077e30f53f0c749a",
+      "bytes": 141799
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8526",
+      "file": "favt-before-8526.html",
+      "sha256": "948f75fa3c05b9dd61ef2f17b4777fff51e2c4a9a3bae57d21e8ee89aa53b60e",
+      "bytes": 146322
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8506",
+      "file": "favt-before-8506.html",
+      "sha256": "e632ec306a96caafeca91f6eb75bd4e155b8116b5764b0bbccb3cc329f801fdd",
+      "bytes": 138441
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8486",
+      "file": "favt-before-8486.html",
+      "sha256": "3960ae43b2f36691286590c41db77b92ae713a629fd1c85485186e2c43cf37b5",
+      "bytes": 138214
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8466",
+      "file": "favt-before-8466.html",
+      "sha256": "1015f8ef74ac61fdda04e904f3637792576cd1b3d738e248fa722ccfe92577bb",
+      "bytes": 137724
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8446",
+      "file": "favt-before-8446.html",
+      "sha256": "cdc3fcf54062f9c2873a90956cd655a73ba447e0e3278aa4e2ce5ca8e1ef253b",
+      "bytes": 141299
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8426",
+      "file": "favt-before-8426.html",
+      "sha256": "e515e961639e565b25ddf2deffa36948c6a574da713e5a8b8ebe7ef929a42a03",
+      "bytes": 141088
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8406",
+      "file": "favt-before-8406.html",
+      "sha256": "1a309a3bba70ef9b704f3805e2e8947578215d7ed71ebe51eddab64a66a9c90b",
+      "bytes": 141104
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8386",
+      "file": "favt-before-8386.html",
+      "sha256": "79dcc30e14a92d01ab499d67e933736aa3de25dad7273ee74e1f68ad763538af",
+      "bytes": 137796
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8366",
+      "file": "favt-before-8366.html",
+      "sha256": "c5fc53365d48654659134d214c2756b346b1897992ef0e639f82fe5972a8fa0b",
+      "bytes": 140528
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8346",
+      "file": "favt-before-8346.html",
+      "sha256": "c588911141c00754c4fbd8bf5fe6b61d2cf9d2101942d4e09a9b213b8b1751d6",
+      "bytes": 142811
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8326",
+      "file": "favt-before-8326.html",
+      "sha256": "bc41978513aba9881273cf53bab528589944bcba5c4ea462c5ac021e86d92971",
+      "bytes": 135658
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8306",
+      "file": "favt-before-8306.html",
+      "sha256": "609a82175ac905cf24f91b41aa73ee5eb4dfcc2f8d95c62bbd8946536e633c6c",
+      "bytes": 140545
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8286",
+      "file": "favt-before-8286.html",
+      "sha256": "7e5b10a1a36e14f11a79903a879e1e22d4fb877aec0cbff2650c9fa098ab8685",
+      "bytes": 142199
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8266",
+      "file": "favt-before-8266.html",
+      "sha256": "4567991cfa131e0e5aeeada4a8c52d14493634b8a268a5128f9ed4ed39320715",
+      "bytes": 137235
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8246",
+      "file": "favt-before-8246.html",
+      "sha256": "deecc9051f50f5aa4cd268a6d1354b1082b3dbd96c7dcf6da2f8eb0eb76a3480",
+      "bytes": 138112
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8226",
+      "file": "favt-before-8226.html",
+      "sha256": "d8dae16d2728d7470ce4cec923c8ff05cf34843f9a3a2653c206ba509ebca781",
+      "bytes": 140906
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8206",
+      "file": "favt-before-8206.html",
+      "sha256": "9d723f5e0a233d7fad598393b63fa3be790f6d06a9d708520112fc419a8dc98e",
+      "bytes": 143209
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8186",
+      "file": "favt-before-8186.html",
+      "sha256": "f39406840178090ac65486fc3cb6f13397eda7de59113bc9d44f72e0d85ec228",
+      "bytes": 135792
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8166",
+      "file": "favt-before-8166.html",
+      "sha256": "c7e6ed69ae0c7a2d741d681872248f73a39748dec67d517385f4c4b4fb5e9652",
+      "bytes": 139459
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8146",
+      "file": "favt-before-8146.html",
+      "sha256": "306fc264b8d8c6870dc6e17af6e5d9e2aa458851db001f4c2f00ad3370950bf2",
+      "bytes": 138979
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8126",
+      "file": "favt-before-8126.html",
+      "sha256": "6685308c1358cd766a6a6157376d7aff847fe079f676c2041eec472b035ffb44",
+      "bytes": 140250
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8106",
+      "file": "favt-before-8106.html",
+      "sha256": "0aadb8188ff3f1fc21b8021939c346e78a68ffad075fecf901724509adb34c17",
+      "bytes": 141276
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8086",
+      "file": "favt-before-8086.html",
+      "sha256": "519686c0f8604c8942fd0aa59dfd8d6ba149fc1567279e02bd15677586f59a8d",
+      "bytes": 139057
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8066",
+      "file": "favt-before-8066.html",
+      "sha256": "5091af5715b2828709df746a7ea33c6495576474500f851d07386b91bae6fc48",
+      "bytes": 138898
+    },
+    {
+      "url": "https://t.me/s/favt_info?before=8046",
+      "file": "favt-before-8046.html",
+      "sha256": "17f59b7cabec7161fbbcd3d1acd6a873bded11dff81e5a4826da809eeeeef283",
+      "bytes": 140860
+    }
+  ]
+}

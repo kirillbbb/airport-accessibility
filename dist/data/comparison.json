@@ -1,0 +1,881 @@
+{
+  "meta": {
+    "compared_at": "2026-10-23T01:32:00.220656+03:00",
+    "start": "2026-09-23T00:00:00+03:00",
+    "cutoff": "2026-10-23T00:51:00+03:00",
+    "meaning": "Совпадение опубликованных рядов, не процент достоверности реальных ограничений.",
+    "independence": "Все три агрегатора аэропортов используют Росавиацию; они проверяют обработку, а не дают три независимых первичных свидетельства."
+  },
+  "msk_airports": {
+    "source": "msk-airports.ru",
+    "url": "https://msk-airports.ru/history",
+    "basis": "Росавиация",
+    "event_count": 120,
+    "exact_event_matches": 120,
+    "unmatched": [],
+    "visible_from": "2026-10-09T15:42:05+03:00",
+    "visible_to": "2026-10-22T08:25:13+03:00",
+    "stats": {
+      "SVO": {
+        "ours_intersecting_episodes": 18,
+        "ours_starts_in_period": 18,
+        "site_episode_count": 18,
+        "site_displayed_whole_hours": 42,
+        "ours_hours": 42.43694444444445,
+        "ours_hours_new_starts_only": 42.43694444444445
+      },
+      "VKO": {
+        "ours_intersecting_episodes": 31,
+        "ours_starts_in_period": 31,
+        "site_episode_count": 31,
+        "site_displayed_whole_hours": 129,
+        "ours_hours": 129.26916666666668,
+        "ours_hours_new_starts_only": 129.26916666666668
+      },
+      "DME": {
+        "ours_intersecting_episodes": 31,
+        "ours_starts_in_period": 30,
+        "site_episode_count": 30,
+        "site_displayed_whole_hours": 115,
+        "ours_hours": 117.29305555555554,
+        "ours_hours_new_starts_only": 115.29333333333331
+      },
+      "ZIA": {
+        "ours_intersecting_episodes": 18,
+        "ours_starts_in_period": 18,
+        "site_episode_count": 18,
+        "site_displayed_whole_hours": 64,
+        "ours_hours": 64.4475,
+        "ours_hours_new_starts_only": 64.4475
+      }
+    },
+    "interpretation": "Все показанные события сверены по аэропорту, режиму и секунде. Это 120 показанных записей, не весь месяц.",
+    "boundary_note": "DME: сайт считает 30 новых начал; у нас 31 пересекающий период эпизод, включая перенос с 22 сентября. При исключении переноса 115,29 ч вместо 117,29 ч."
+  },
+  "airports_ru": {
+    "source": "Airports.ru",
+    "url": "https://airports.ru/history/",
+    "basis": "Росавиация",
+    "export_urls": [
+      "https://airports.ru/history/?month=2026-09&format=csv",
+      "https://airports.ru/history/?month=2026-10&format=csv"
+    ],
+    "comparison_window": [
+      "2026-09-23T00:00:00+03:00",
+      "2026-10-23T00:51:00+03:00"
+    ],
+    "ours_segments": 130,
+    "site_segments": 117,
+    "matched_starts": 117,
+    "matching_both_boundaries": 113,
+    "agreement_percent_of_our_segments": 86.92307692307692,
+    "missing_in_csv": [
+      {
+        "airport": "DME",
+        "status": "coordinated",
+        "start": "2026-09-30T04:55:08+03:00",
+        "end": "2026-09-30T06:50:35+03:00",
+        "start_source": "https://t.me/favt_info/8257",
+        "end_source": "https://t.me/favt_info/8265"
+      },
+      {
+        "airport": "ZIA",
+        "status": "coordinated",
+        "start": "2026-09-30T04:55:08+03:00",
+        "end": "2026-09-30T06:50:35+03:00",
+        "start_source": "https://t.me/favt_info/8257",
+        "end_source": "https://t.me/favt_info/8265"
+      },
+      {
+        "airport": "VKO",
+        "status": "coordinated",
+        "start": "2026-10-03T20:57:31+03:00",
+        "end": "2026-10-03T22:33:20+03:00",
+        "start_source": "https://t.me/favt_info/8385",
+        "end_source": "https://t.me/favt_info/8387"
+      },
+      {
+        "airport": "VKO",
+        "status": "coordinated",
+        "start": "2026-10-04T00:10:29+03:00",
+        "end": "2026-10-04T04:17:23+03:00",
+        "start_source": "https://t.me/favt_info/8390",
+        "end_source": "https://t.me/favt_info/8393"
+      },
+      {
+        "airport": "VKO",
+        "status": "coordinated",
+        "start": "2026-10-04T17:59:50+03:00",
+        "end": "2026-10-04T20:04:43+03:00",
+        "start_source": "https://t.me/favt_info/8411",
+        "end_source": "https://t.me/favt_info/8416"
+      },
+      {
+        "airport": "VKO",
+        "status": "coordinated",
+        "start": "2026-10-06T00:06:59+03:00",
+        "end": "2026-10-06T01:53:19+03:00",
+        "start_source": "https://t.me/favt_info/8441",
+        "end_source": "https://t.me/favt_info/8443"
+      },
+      {
+        "airport": "DME",
+        "status": "coordinated",
+        "start": "2026-10-06T00:06:59+03:00",
+        "end": "2026-10-06T01:53:19+03:00",
+        "start_source": "https://t.me/favt_info/8441",
+        "end_source": "https://t.me/favt_info/8443"
+      },
+      {
+        "airport": "SVO",
+        "status": "suspended",
+        "start": "2026-10-06T05:35:20+03:00",
+        "end": "2026-10-06T07:07:53+03:00",
+        "start_source": "https://t.me/favt_info/8446",
+        "end_source": "https://t.me/favt_info/8447"
+      },
+      {
+        "airport": "SVO",
+        "status": "suspended",
+        "start": "2026-10-06T08:55:29+03:00",
+        "end": "2026-10-06T09:48:26+03:00",
+        "start_source": "https://t.me/favt_info/8448",
+        "end_source": "https://t.me/favt_info/8449"
+      },
+      {
+        "airport": "ZIA",
+        "status": "coordinated",
+        "start": "2026-10-09T12:39:31+03:00",
+        "end": "2026-10-09T13:47:12+03:00",
+        "start_source": "https://t.me/favt_info/8547",
+        "end_source": "https://t.me/favt_info/8548"
+      },
+      {
+        "airport": "SVO",
+        "status": "suspended",
+        "start": "2026-10-09T22:56:52+03:00",
+        "end": "2026-10-09T23:15:46+03:00",
+        "start_source": "https://t.me/favt_info/8569",
+        "end_source": "https://t.me/favt_info/8570"
+      },
+      {
+        "airport": "VKO",
+        "status": "coordinated",
+        "start": "2026-10-13T03:12:59+03:00",
+        "end": "2026-10-13T10:59:16+03:00",
+        "start_source": "https://t.me/favt_info/8637",
+        "end_source": "https://t.me/favt_info/8646"
+      },
+      {
+        "airport": "DME",
+        "status": "coordinated",
+        "start": "2026-10-15T03:55:51+03:00",
+        "end": "2026-10-15T12:23:25+03:00",
+        "start_source": "https://t.me/favt_info/8679",
+        "end_source": "https://t.me/favt_info/8699"
+      }
+    ],
+    "different_endings": [
+      {
+        "airport": "VKO",
+        "status": "coordinated",
+        "start": "2026-10-05T03:08:05+03:00",
+        "ours_end": "2026-10-05T04:22:08+03:00",
+        "site_end": "2026-10-06T01:53:00+03:00",
+        "end_delta_minutes": 1290.8666666666666,
+        "start_source": "https://t.me/favt_info/8425",
+        "end_source": "https://t.me/favt_info/8427"
+      },
+      {
+        "airport": "DME",
+        "status": "coordinated",
+        "start": "2026-10-05T03:08:05+03:00",
+        "ours_end": "2026-10-05T04:22:08+03:00",
+        "site_end": "2026-10-06T01:53:00+03:00",
+        "end_delta_minutes": 1290.8666666666666,
+        "start_source": "https://t.me/favt_info/8425",
+        "end_source": "https://t.me/favt_info/8427"
+      },
+      {
+        "airport": "SVO",
+        "status": "suspended",
+        "start": "2026-10-09T15:38:57+03:00",
+        "ours_end": "2026-10-09T17:34:12+03:00",
+        "site_end": "2026-10-09T23:15:00+03:00",
+        "end_delta_minutes": 340.8,
+        "start_source": "https://t.me/favt_info/8555",
+        "end_source": "https://t.me/favt_info/8558"
+      },
+      {
+        "airport": "VKO",
+        "status": "suspended",
+        "start": "2026-10-13T02:07:27+03:00",
+        "ours_end": "2026-10-13T03:12:59+03:00",
+        "site_end": "2026-10-13T10:59:00+03:00",
+        "end_delta_minutes": 466.01666666666665,
+        "start_source": "https://t.me/favt_info/8633",
+        "end_source": "https://t.me/favt_info/8637"
+      }
+    ],
+    "per_airport": {
+      "SVO": {
+        "ours_segments": 22,
+        "site_segments": 19,
+        "both_boundaries_match": 18,
+        "ours_hours": 42.43694444444445,
+        "site_hours_from_boundaries": 45.38333333333334
+      },
+      "VKO": {
+        "ours_segments": 44,
+        "site_segments": 39,
+        "both_boundaries_match": 37,
+        "ours_hours": 129.26916666666668,
+        "site_hours_from_boundaries": 141.21666666666673
+      },
+      "DME": {
+        "ours_segments": 44,
+        "site_segments": 41,
+        "both_boundaries_match": 40,
+        "ours_hours": 117.29305555555554,
+        "site_hours_from_boundaries": 126.63333333333335
+      },
+      "ZIA": {
+        "ours_segments": 20,
+        "site_segments": 18,
+        "both_boundaries_match": 18,
+        "ours_hours": 64.4475,
+        "site_hours_from_boundaries": 61.349999999999994
+      }
+    },
+    "monthly_export_conflicts": [
+      {
+        "airport": "DME",
+        "status": "coordinated",
+        "start": "2026-09-30T19:56:00+03:00",
+        "note": "Один месячный экспорт помечает эпизод ongoing без окончания, другой даёт закрытое окончание. Для сопоставления выбран закрытый вариант."
+      }
+    ],
+    "method": "Аэропорт + тип + начало в той же московской минуте; окончание с допуском менее 60 секунд. Месячные копии объединены по началу; закрытое окончание имеет приоритет перед ongoing. kind partial сопоставлен согласовательному режиму по объявлениям."
+  },
+  "benzinmap": {
+    "source": "BenzinMap",
+    "url": "https://benzinmap.ru/airports/",
+    "basis": "https://t.me/s/favt_info",
+    "api_url": "https://benzinmap.ru/airports/data.json",
+    "updated_at": "2026-10-22T22:20:02+00:00",
+    "coverage": {
+      "monitoring_coverage_start_at": "2026-09-30T07:57:24+00:00",
+      "history_coverage_start_at": "2026-10-17T08:19:44+00:00",
+      "monitoring_continuous_since": "2026-10-20T16:49:17+00:00"
+    },
+    "per_airport_history_counts": {
+      "ZIA": 37,
+      "DME": 67,
+      "SVO": 42,
+      "VKO": 61
+    },
+    "matching_source_assignments": 197,
+    "other_source_assignments": [
+      {
+        "airport": "ZIA",
+        "at": "2026-10-04T22:37:56+03:00",
+        "status": "coordinated",
+        "source_url": "https://t.me/favt_info/8422",
+        "reason": "ZIA упомянут в ссылке на табло; в перечне аэропортов режима только VKO и DME.",
+        "assessment": "contradicted_by_source"
+      },
+      {
+        "airport": "ZIA",
+        "at": "2026-10-08T19:20:18+03:00",
+        "status": "coordinated",
+        "source_url": "https://t.me/favt_info/8518",
+        "reason": "Непарное наблюдение о ZIA.",
+        "assessment": "unpaired_observation"
+      },
+      {
+        "airport": "DME",
+        "at": "2026-10-08T19:20:18+03:00",
+        "status": "coordinated",
+        "source_url": "https://t.me/favt_info/8518",
+        "reason": "Источник прямо говорит, что SVO/VKO/DME открыты, а согласовательный режим относится к ZIA.",
+        "assessment": "contradicted_by_source"
+      },
+      {
+        "airport": "DME",
+        "at": "2026-10-17T09:27:06+03:00",
+        "status": "suspended",
+        "source_url": "https://t.me/favt_info/8792",
+        "reason": "Сводка/закрепление перечисляет другие города и говорит о работе остальных аэропортов; DME/VKO в списке ограничений нет.",
+        "assessment": "contradicted_by_source"
+      },
+      {
+        "airport": "DME",
+        "at": "2026-10-17T09:27:11+03:00",
+        "status": "suspended",
+        "source_url": "https://t.me/favt_info/8793",
+        "reason": "Сводка/закрепление перечисляет другие города и говорит о работе остальных аэропортов; DME/VKO в списке ограничений нет.",
+        "assessment": "contradicted_by_source"
+      },
+      {
+        "airport": "SVO",
+        "at": "2026-10-08T19:20:18+03:00",
+        "status": "coordinated",
+        "source_url": "https://t.me/favt_info/8518",
+        "reason": "Источник прямо говорит, что SVO/VKO/DME открыты, а согласовательный режим относится к ZIA.",
+        "assessment": "contradicted_by_source"
+      },
+      {
+        "airport": "SVO",
+        "at": "2026-10-17T17:10:11+03:00",
+        "status": "coordinated",
+        "source_url": "https://t.me/favt_info/8797",
+        "reason": "Непарная сводка: режим упомянут, но непрерывность до следующей отмены не доказана.",
+        "assessment": "unpaired_observation"
+      },
+      {
+        "airport": "VKO",
+        "at": "2026-10-08T19:20:18+03:00",
+        "status": "coordinated",
+        "source_url": "https://t.me/favt_info/8518",
+        "reason": "Источник прямо говорит, что SVO/VKO/DME открыты, а согласовательный режим относится к ZIA.",
+        "assessment": "contradicted_by_source"
+      },
+      {
+        "airport": "VKO",
+        "at": "2026-10-17T09:27:06+03:00",
+        "status": "suspended",
+        "source_url": "https://t.me/favt_info/8792",
+        "reason": "Сводка/закрепление перечисляет другие города и говорит о работе остальных аэропортов; DME/VKO в списке ограничений нет.",
+        "assessment": "contradicted_by_source"
+      },
+      {
+        "airport": "VKO",
+        "at": "2026-10-17T09:27:11+03:00",
+        "status": "suspended",
+        "source_url": "https://t.me/favt_info/8793",
+        "reason": "Сводка/закрепление перечисляет другие города и говорит о работе остальных аэропортов; DME/VKO в списке ограничений нет.",
+        "assessment": "contradicted_by_source"
+      }
+    ],
+    "wrong_status": [],
+    "displayed_intervals": [
+      {
+        "airport": "SVO",
+        "start": "2026-10-22T02:22:00+03:00",
+        "end": "2026-10-22T05:19:00+03:00",
+        "duration_hours": 2.95
+      },
+      {
+        "airport": "SVO",
+        "start": "2026-10-17T17:10:00+03:00",
+        "end": "2026-10-21T06:10:00+03:00",
+        "duration_hours": 85.0
+      },
+      {
+        "airport": "SVO",
+        "start": "2026-10-17T01:58:00+03:00",
+        "end": "2026-10-17T06:57:00+03:00",
+        "duration_hours": 4.983333333333333
+      },
+      {
+        "airport": "SVO",
+        "start": "2026-10-15T23:32:00+03:00",
+        "end": "2026-10-16T05:06:00+03:00",
+        "duration_hours": 5.566666666666666
+      },
+      {
+        "airport": "SVO",
+        "start": "2026-10-13T22:49:00+03:00",
+        "end": "2026-10-14T06:44:00+03:00",
+        "duration_hours": 7.916666666666667
+      },
+      {
+        "airport": "SVO",
+        "start": "2026-10-13T08:55:00+03:00",
+        "end": "2026-10-13T10:59:00+03:00",
+        "duration_hours": 2.066666666666667
+      },
+      {
+        "airport": "SVO",
+        "start": "2026-10-11T20:31:00+03:00",
+        "end": "2026-10-11T22:21:00+03:00",
+        "duration_hours": 1.8333333333333333
+      },
+      {
+        "airport": "SVO",
+        "start": "2026-10-10T08:11:00+03:00",
+        "end": "2026-10-10T08:48:00+03:00",
+        "duration_hours": 0.6166666666666667
+      },
+      {
+        "airport": "SVO",
+        "start": "2026-10-09T22:56:00+03:00",
+        "end": "2026-10-09T23:15:00+03:00",
+        "duration_hours": 0.31666666666666665
+      },
+      {
+        "airport": "SVO",
+        "start": "2026-10-09T15:38:00+03:00",
+        "end": "2026-10-09T17:34:00+03:00",
+        "duration_hours": 1.9333333333333333
+      },
+      {
+        "airport": "SVO",
+        "start": "2026-10-08T19:20:00+03:00",
+        "end": "2026-10-09T15:02:00+03:00",
+        "duration_hours": 19.7
+      },
+      {
+        "airport": "SVO",
+        "start": "2026-10-08T16:08:00+03:00",
+        "end": "2026-10-08T19:01:00+03:00",
+        "duration_hours": 2.8833333333333333
+      },
+      {
+        "airport": "SVO",
+        "start": "2026-10-06T08:55:00+03:00",
+        "end": "2026-10-06T09:48:00+03:00",
+        "duration_hours": 0.8833333333333333
+      },
+      {
+        "airport": "SVO",
+        "start": "2026-10-06T05:35:00+03:00",
+        "end": "2026-10-06T07:07:00+03:00",
+        "duration_hours": 1.5333333333333334
+      },
+      {
+        "airport": "SVO",
+        "start": "2026-10-06T01:29:00+03:00",
+        "end": "2026-10-06T05:14:00+03:00",
+        "duration_hours": 3.75
+      },
+      {
+        "airport": "SVO",
+        "start": "2026-10-04T18:37:00+03:00",
+        "end": "2026-10-04T21:14:00+03:00",
+        "duration_hours": 2.6166666666666667
+      },
+      {
+        "airport": "SVO",
+        "start": "2026-10-04T07:41:00+03:00",
+        "end": "2026-10-04T08:29:00+03:00",
+        "duration_hours": 0.8
+      },
+      {
+        "airport": "SVO",
+        "start": "2026-10-03T14:30:00+03:00",
+        "end": "2026-10-03T15:03:00+03:00",
+        "duration_hours": 0.55
+      },
+      {
+        "airport": "VKO",
+        "start": "2026-10-22T07:44:00+03:00",
+        "end": "2026-10-22T08:25:00+03:00",
+        "duration_hours": 0.6833333333333333
+      },
+      {
+        "airport": "VKO",
+        "start": "2026-10-22T00:38:00+03:00",
+        "end": "2026-10-22T05:19:00+03:00",
+        "duration_hours": 4.683333333333334
+      },
+      {
+        "airport": "VKO",
+        "start": "2026-10-21T02:15:00+03:00",
+        "end": "2026-10-21T07:51:00+03:00",
+        "duration_hours": 5.6
+      },
+      {
+        "airport": "VKO",
+        "start": "2026-10-20T20:59:00+03:00",
+        "end": "2026-10-20T22:38:00+03:00",
+        "duration_hours": 1.65
+      },
+      {
+        "airport": "VKO",
+        "start": "2026-10-19T23:55:00+03:00",
+        "end": "2026-10-20T01:43:00+03:00",
+        "duration_hours": 1.8
+      },
+      {
+        "airport": "VKO",
+        "start": "2026-10-17T09:27:00+03:00",
+        "end": "2026-10-18T05:34:00+03:00",
+        "duration_hours": 20.116666666666667
+      },
+      {
+        "airport": "VKO",
+        "start": "2026-10-16T22:46:00+03:00",
+        "end": "2026-10-17T06:57:00+03:00",
+        "duration_hours": 8.183333333333334
+      },
+      {
+        "airport": "VKO",
+        "start": "2026-10-15T22:48:00+03:00",
+        "end": "2026-10-16T05:06:00+03:00",
+        "duration_hours": 6.3
+      },
+      {
+        "airport": "VKO",
+        "start": "2026-10-15T06:10:00+03:00",
+        "end": "2026-10-15T12:23:00+03:00",
+        "duration_hours": 6.216666666666667
+      },
+      {
+        "airport": "VKO",
+        "start": "2026-10-13T22:05:00+03:00",
+        "end": "2026-10-14T06:44:00+03:00",
+        "duration_hours": 8.65
+      },
+      {
+        "airport": "VKO",
+        "start": "2026-10-12T21:36:00+03:00",
+        "end": "2026-10-13T10:59:00+03:00",
+        "duration_hours": 13.383333333333333
+      },
+      {
+        "airport": "VKO",
+        "start": "2026-10-11T20:57:00+03:00",
+        "end": "2026-10-11T23:14:00+03:00",
+        "duration_hours": 2.283333333333333
+      },
+      {
+        "airport": "VKO",
+        "start": "2026-10-10T08:11:00+03:00",
+        "end": "2026-10-10T08:48:00+03:00",
+        "duration_hours": 0.6166666666666667
+      },
+      {
+        "airport": "VKO",
+        "start": "2026-10-09T22:52:00+03:00",
+        "end": "2026-10-09T23:26:00+03:00",
+        "duration_hours": 0.5666666666666667
+      },
+      {
+        "airport": "VKO",
+        "start": "2026-10-09T15:38:00+03:00",
+        "end": "2026-10-09T18:40:00+03:00",
+        "duration_hours": 3.033333333333333
+      },
+      {
+        "airport": "VKO",
+        "start": "2026-10-08T19:20:00+03:00",
+        "end": "2026-10-09T07:00:00+03:00",
+        "duration_hours": 11.666666666666666
+      },
+      {
+        "airport": "VKO",
+        "start": "2026-10-08T15:24:00+03:00",
+        "end": "2026-10-08T18:58:00+03:00",
+        "duration_hours": 3.566666666666667
+      },
+      {
+        "airport": "VKO",
+        "start": "2026-10-06T00:06:00+03:00",
+        "end": "2026-10-06T05:14:00+03:00",
+        "duration_hours": 5.133333333333334
+      },
+      {
+        "airport": "VKO",
+        "start": "2026-10-05T03:08:00+03:00",
+        "end": "2026-10-05T04:22:00+03:00",
+        "duration_hours": 1.2333333333333334
+      },
+      {
+        "airport": "VKO",
+        "start": "2026-10-04T22:37:00+03:00",
+        "end": "2026-10-05T00:14:00+03:00",
+        "duration_hours": 1.6166666666666667
+      },
+      {
+        "airport": "DME",
+        "start": "2026-10-22T00:38:00+03:00",
+        "end": "2026-10-22T05:19:00+03:00",
+        "duration_hours": 4.683333333333334
+      },
+      {
+        "airport": "DME",
+        "start": "2026-10-21T21:58:00+03:00",
+        "end": "2026-10-21T22:30:00+03:00",
+        "duration_hours": 0.5333333333333333
+      },
+      {
+        "airport": "DME",
+        "start": "2026-10-21T07:27:00+03:00",
+        "end": "2026-10-21T07:51:00+03:00",
+        "duration_hours": 0.4
+      },
+      {
+        "airport": "DME",
+        "start": "2026-10-17T09:27:00+03:00",
+        "end": "2026-10-18T05:34:00+03:00",
+        "duration_hours": 20.116666666666667
+      },
+      {
+        "airport": "DME",
+        "start": "2026-10-16T22:46:00+03:00",
+        "end": "2026-10-17T06:57:00+03:00",
+        "duration_hours": 8.183333333333334
+      },
+      {
+        "airport": "DME",
+        "start": "2026-10-15T22:15:00+03:00",
+        "end": "2026-10-16T05:43:00+03:00",
+        "duration_hours": 7.466666666666667
+      },
+      {
+        "airport": "DME",
+        "start": "2026-10-15T03:55:00+03:00",
+        "end": "2026-10-15T12:23:00+03:00",
+        "duration_hours": 8.466666666666667
+      },
+      {
+        "airport": "DME",
+        "start": "2026-10-14T22:12:00+03:00",
+        "end": "2026-10-15T00:41:00+03:00",
+        "duration_hours": 2.4833333333333334
+      },
+      {
+        "airport": "DME",
+        "start": "2026-10-14T11:42:00+03:00",
+        "end": "2026-10-14T13:04:00+03:00",
+        "duration_hours": 1.3666666666666667
+      },
+      {
+        "airport": "DME",
+        "start": "2026-10-13T22:05:00+03:00",
+        "end": "2026-10-14T06:44:00+03:00",
+        "duration_hours": 8.65
+      },
+      {
+        "airport": "DME",
+        "start": "2026-10-13T01:11:00+03:00",
+        "end": "2026-10-13T08:48:00+03:00",
+        "duration_hours": 7.616666666666666
+      },
+      {
+        "airport": "DME",
+        "start": "2026-10-11T20:16:00+03:00",
+        "end": "2026-10-11T23:14:00+03:00",
+        "duration_hours": 2.966666666666667
+      },
+      {
+        "airport": "DME",
+        "start": "2026-10-10T08:11:00+03:00",
+        "end": "2026-10-10T08:48:00+03:00",
+        "duration_hours": 0.6166666666666667
+      },
+      {
+        "airport": "DME",
+        "start": "2026-10-09T15:10:00+03:00",
+        "end": "2026-10-09T18:40:00+03:00",
+        "duration_hours": 3.5
+      },
+      {
+        "airport": "DME",
+        "start": "2026-10-08T19:20:00+03:00",
+        "end": "2026-10-09T07:00:00+03:00",
+        "duration_hours": 11.666666666666666
+      },
+      {
+        "airport": "DME",
+        "start": "2026-10-08T15:00:00+03:00",
+        "end": "2026-10-08T18:58:00+03:00",
+        "duration_hours": 3.966666666666667
+      },
+      {
+        "airport": "DME",
+        "start": "2026-10-06T00:06:00+03:00",
+        "end": "2026-10-06T05:14:00+03:00",
+        "duration_hours": 5.133333333333334
+      },
+      {
+        "airport": "DME",
+        "start": "2026-10-05T03:08:00+03:00",
+        "end": "2026-10-05T04:22:00+03:00",
+        "duration_hours": 1.2333333333333334
+      },
+      {
+        "airport": "DME",
+        "start": "2026-10-04T22:37:00+03:00",
+        "end": "2026-10-05T00:14:00+03:00",
+        "duration_hours": 1.6166666666666667
+      },
+      {
+        "airport": "DME",
+        "start": "2026-10-04T19:03:00+03:00",
+        "end": "2026-10-04T20:04:00+03:00",
+        "duration_hours": 1.0166666666666666
+      },
+      {
+        "airport": "DME",
+        "start": "2026-10-04T04:11:00+03:00",
+        "end": "2026-10-04T06:43:00+03:00",
+        "duration_hours": 2.533333333333333
+      },
+      {
+        "airport": "DME",
+        "start": "2026-10-02T16:52:00+03:00",
+        "end": "2026-10-02T17:15:00+03:00",
+        "duration_hours": 0.38333333333333336
+      },
+      {
+        "airport": "DME",
+        "start": "2026-10-01T19:36:00+03:00",
+        "end": "2026-10-01T19:48:00+03:00",
+        "duration_hours": 0.2
+      },
+      {
+        "airport": "DME",
+        "start": "2026-09-30T19:56:00+03:00",
+        "end": "2026-10-01T06:43:00+03:00",
+        "duration_hours": 10.783333333333333
+      },
+      {
+        "airport": "DME",
+        "start": "2026-09-30T13:14:00+03:00",
+        "end": "2026-09-30T13:38:00+03:00",
+        "duration_hours": 0.4
+      },
+      {
+        "airport": "ZIA",
+        "start": "2026-10-22T00:38:00+03:00",
+        "end": "2026-10-22T05:19:00+03:00",
+        "duration_hours": 4.683333333333334
+      },
+      {
+        "airport": "ZIA",
+        "start": "2026-10-16T23:26:00+03:00",
+        "end": "2026-10-17T06:57:00+03:00",
+        "duration_hours": 7.516666666666667
+      },
+      {
+        "airport": "ZIA",
+        "start": "2026-10-15T23:18:00+03:00",
+        "end": "2026-10-16T05:43:00+03:00",
+        "duration_hours": 6.416666666666667
+      },
+      {
+        "airport": "ZIA",
+        "start": "2026-10-15T08:28:00+03:00",
+        "end": "2026-10-15T12:23:00+03:00",
+        "duration_hours": 3.9166666666666665
+      },
+      {
+        "airport": "ZIA",
+        "start": "2026-10-14T11:42:00+03:00",
+        "end": "2026-10-14T13:04:00+03:00",
+        "duration_hours": 1.3666666666666667
+      },
+      {
+        "airport": "ZIA",
+        "start": "2026-10-13T22:05:00+03:00",
+        "end": "2026-10-14T06:44:00+03:00",
+        "duration_hours": 8.65
+      },
+      {
+        "airport": "ZIA",
+        "start": "2026-10-13T02:06:00+03:00",
+        "end": "2026-10-13T07:22:00+03:00",
+        "duration_hours": 5.266666666666667
+      },
+      {
+        "airport": "ZIA",
+        "start": "2026-10-11T20:57:00+03:00",
+        "end": "2026-10-11T22:21:00+03:00",
+        "duration_hours": 1.4
+      },
+      {
+        "airport": "ZIA",
+        "start": "2026-10-10T08:11:00+03:00",
+        "end": "2026-10-10T08:48:00+03:00",
+        "duration_hours": 0.6166666666666667
+      },
+      {
+        "airport": "ZIA",
+        "start": "2026-10-09T15:42:00+03:00",
+        "end": "2026-10-09T18:40:00+03:00",
+        "duration_hours": 2.966666666666667
+      },
+      {
+        "airport": "ZIA",
+        "start": "2026-10-09T12:39:00+03:00",
+        "end": "2026-10-09T13:47:00+03:00",
+        "duration_hours": 1.1333333333333333
+      },
+      {
+        "airport": "ZIA",
+        "start": "2026-10-09T11:20:00+03:00",
+        "end": "2026-10-09T11:45:00+03:00",
+        "duration_hours": 0.4166666666666667
+      },
+      {
+        "airport": "ZIA",
+        "start": "2026-10-09T00:23:00+03:00",
+        "end": "2026-10-09T07:00:00+03:00",
+        "duration_hours": 6.616666666666666
+      },
+      {
+        "airport": "ZIA",
+        "start": "2026-10-08T15:24:00+03:00",
+        "end": "2026-10-08T21:13:00+03:00",
+        "duration_hours": 5.816666666666666
+      },
+      {
+        "airport": "ZIA",
+        "start": "2026-10-04T22:37:00+03:00",
+        "end": "2026-10-06T05:14:00+03:00",
+        "duration_hours": 30.616666666666667
+      },
+      {
+        "airport": "ZIA",
+        "start": "2026-10-01T17:41:00+03:00",
+        "end": "2026-10-01T19:35:00+03:00",
+        "duration_hours": 1.9
+      }
+    ],
+    "warning": "Суммы разных периодов не сравниваются как полное месячное покрытие. Проверены отдельные присвоения аэропортам и конкретные интервалы."
+  },
+  "regional_alerts": {
+    "requested_window": "2026-09-23T00:00:00+03:00 through research time 2026-10-23",
+    "results": [
+      {
+        "source": "https://karta-bpla.ru/statistika/",
+        "finding": "Collection explicitly starts 2026-09-30; requested Sep23–29 is not covered. Counts messages (including observations and all-clear), not airport restrictions.",
+        "criticality": "high if used to claim full-month validation"
+      },
+      {
+        "source": "https://karta-bpla.ru/aeroporty/sheremetevo/",
+        "finding": "Airport page reports regional 41 danger periods/22 days/max710min, explicitly says not Rosaviatsiya data. Identical values on VKO. Actual recognized airport restriction block has no recent messages.",
+        "criticality": "critical if imported as airport closures or airport ranking"
+      },
+      {
+        "source": "https://karta-bpla.ru/moscow/",
+        "finding": "Moscow and Moscow oblast are intentionally combined; mixed radar channels and official sources; per-message upstream provenance not exposed in accessible page.",
+        "criticality": "high for independent source claims"
+      },
+      {
+        "source": "https://pulse.errata.page/api/alerts/",
+        "finding": "Public API reports window_hours12 and sources radarrussiia/locatorru. It is a rolling regional alert state feed, not monthly RSchS SMS archive.",
+        "criticality": "not suitable for monthly quantification"
+      },
+      {
+        "source": "https://detector-aero.ru/zone/moskva",
+        "finding": "Site declines to disclose exact sources/internal calculations; measures mixed event cards. Web-reader snapshot and direct capture disagree sharply; cannot infer reason from public data.",
+        "criticality": "high for reproducibility"
+      },
+      {
+        "source": "https://radarvrv.ru/archive/",
+        "finding": "Archive URL redirects to public Telegram bplarussiaru, not a browsable date-indexed archive.",
+        "criticality": "cannot quantify monthly agreement from this route"
+      },
+      {
+        "source": "https://max.ru/id5027285419_gos",
+        "finding": "Public landing identifies RSchS Moscow oblast; accessible page has no dated month posts or SMS delivery log.",
+        "criticality": "genuine monthly RSchS archive unavailable in this audit"
+      }
+    ],
+    "quantified_airport_vs_rschs_agreement": null,
+    "reason": "No accessible genuine monthly RSchS SMS/alert archive; regional alerts measure different events from airport operating restrictions."
+  }
+}
