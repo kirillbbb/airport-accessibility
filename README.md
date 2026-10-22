@@ -14,9 +14,11 @@
 
 ## Деплой
 
-[Пошаговая инструкция для Vercel](docs/DEPLOY.md).
+[Пошаговая инструкция для Vercel и GitHub Pages](docs/DEPLOY.md).
 
 Проект готов к размещению: корень репозитория `./`, Framework Preset **Other**, Output Directory **dist**, команды сборки и установки пустые. Эти параметры заданы в [vercel.json](vercel.json). Переменные окружения не нужны.
+
+Для GitHub Pages добавлен [workflow](.github/workflows/pages.yml), публикующий `dist/`. В **Settings → Pages → Source** выберите **GitHub Actions**, затем запустите **Actions → Deploy GitHub Pages**. Vercel и Pages могут работать одновременно из одной ветки `main`.
 
 ## Локальный запуск
 
